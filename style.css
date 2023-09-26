@@ -1,0 +1,228 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1e3e9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #f5d7e8;
+    color: #000000;
+    padding: 10px 0;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #050505;
+}
+section {
+    padding: 20px;
+}
+main {
+    flex: 1;
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+header h1 {
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 24px;
+}
+#home {
+    padding: 20px;
+    background-color: #f1e3e9;
+    text-align: center;
+}
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.home-text {
+    width: 50%;
+    padding: 140px;
+    text-align: left;
+}
+.home-text h2 {
+    font-size: 24px;
+    color: #333;
+}
+.home-text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.home-content img {
+    max-width: 100%;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.cta-button {
+    background-color: #ab73b1;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#menu {
+    background-color: #f1e3e9;
+    padding: 20px;
+    text-align: center;
+}
+.menu-item {
+    font-size: 25px;
+    color: #000000;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.menu-item ul {
+    list-style: none;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+.menu-item li {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 80px;
+    text-align: left; 
+}
+#menu h2 {
+    background-color: #fac1fa;
+    font-size: 50px;
+    color: purple;
+    margin-top: 195px;
+}
+.menu-item img {
+    max-width: 700px; 
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.item-name {
+    font-weight: bold;
+    padding: 20px;
+}
+h1 {
+    font-family:monospace; 
+    font-size: 36px; 
+    color: #333; 
+    text-transform: uppercase; 
+}
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: #555;
+}
+p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    color: #777;
+    line-height: 1.5;
+}
+#home h2 {
+    font-size: 28px;
+    color: #ff6600; 
+}
+.menu-item h3 {
+    font-weight: bold; 
+    font-size: 28px; 
+    color: #000000;
+    margin-right: 300px;
+}
+#menu p {
+    margin-right: 300px;
+    font-size: 19px;
+}
+#about {
+    background-color: #f1e3e9;
+    padding: 20px;
+    text-align: center;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-text {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.about-text h2 {
+    background-color: #fac1fa;
+    font-size: 50px;
+    color: purple;
+    text-align: center;
+    margin-top: 150px;
+}
+.about-text p {
+    font-size: 19px;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.about-images {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.about-images img {
+    max-width: 48%; 
+}
+#contact {
+    background-color: #f1e3e9;
+    padding: 20px;
+    text-align: center;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.contact-item {
+    text-align: center;
+}
+.contact-item i {
+    font-size: 36px; 
+    color: #000000; 
+    margin-bottom: 20px;
+}
+.contact-item p {
+    font-size: 16px;
+    color: #333;
+}
+#contact h2 {
+    background-color: #fac1fa;
+    font-size: 50px;
+    color: purple;
+    text-align: center;
+    margin-bottom: 50px;
+}
